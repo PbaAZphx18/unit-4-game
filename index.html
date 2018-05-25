@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>unit-4-game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link type="text/javascript" href="assets/javascript/game.js">
+</head>
+
+<body>
+ 
+  <!-- MAIN HEADER -->
+  <div class="container">
+    <header>
+      <h1 class="mainH1">
+        CrystalsCollector!
+      </h1>
+    </header>
+
+    <!-- MAIN SECTION/INSTRUCTIONS -->
+    <section class="mainSection">
+      <p class="p1">You will be given a random number at the start of the game</p>
+      <br/>
+      <p class="p1">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your local score</p>
+      <br/>
+      <p class="p1">You win the game by matching your total score to random number, you lose the game if your total score goes above the
+        random number.</p>
+      <br>
+      <p class="p1">The value if each crystal is hidden from you until you click on it.</p>
+      <br>
+      <p class="p1">Each time when the game starts, the game will change the values of each crystal.</p>
+      </section>
+
+      <!-- TRACKING SCORE -->
+    <div class="containerRows">
+      <div class="row">
+        <div>
+        </div>
+        <div class="col-sm-2 compRandom">
+            <p class="paraRandom">34</p>
+          </div>
+        <div class="col-sm-1 scoreTracker">
+           <p class="paraWin">Wins: </p>
+           <p class="paraLose">Losses: </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- IMAGES -->
+
+    <div class="container-pics">
+      <div class="row">
+        <div class="col-xm-2">
+          <img class="pics" src="/assets/images/stone1.jpeg">
+        </div>
+        <div class="col-xm-2">
+          <img class="pics" src="assets/images/stone2.jpeg">
+        </div>
+        <div class="col-xm-2">
+          <img class="pics" src="assets/images/stone3.jpeg">
+        </div>
+        <div class="col-xm-2">
+          <img class="pics" src="assets/images/stone4.jpeg">
+        </div>
+      </div>
+    </div>
+
+    <!-- TOTAL SCORE DIV -->
+    <div class="emptyDiv"><p class="scoreDiv">Your total score is: </p></div>
+
+    <div class="emptyDiv2"><h2 class="finalScore">0</h2></div>
+
+
+  </div>
+
+</body>
+
+</html>
