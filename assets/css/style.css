@@ -75,6 +75,12 @@ header {
    padding: 0;
    margin-top: 10px;
    margin-right: 7px;
+   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+ }
+
+ .pics:hover {
+   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+   cursor: pointer;
  }
 
 
