@@ -1,6 +1,28 @@
 //-------Get writers block in that I dont know what to do first or how things go together. 
 //-------I still have a hard time figuring out what functions/methods to use when and where----
 
+//variables
+var wins = 0;
+var losses = 0;
+var compNum = 0;
+var userScore = 0;
+var total = 0;
+
+// Chooses a new random number at start of new game
+  var ranNum = 19 + Math.floor(Math.random() * 102);
+  console.log(ranNum);
+
+  //assigns random value for each jewel when clicked
+  var purple1 = Math.floor(Math.random() * 12) + 1;
+  var green2 = Math.floor(Math.random() * 12) + 1;
+  var yellow3 = Math.floor(Math.random() * 12) + 1;
+  var red4 = Math.floor(Math.random() * 12) + 1;
+  console.log(purple1, green2, yellow3, red4);
+
+
+  $(".pics").on("click", function () {
+    console.log($(this).attr("ranNum"));
+  })
 
 
 
@@ -56,28 +78,6 @@
 // }
 //------------------------
 
-//variables
-var wins = 0;
-var losses = 0;
-var compNum = 0;
-var userScore = 0;
-var total = 0;
-
-// Chooses a new random number at start of new game
-  var ranNum = 19 + Math.floor(Math.random() * 102);
-  console.log(ranNum);
-
-  //assigns random value for each jewel when clicked
-  var purple1 = Math.floor(Math.random() * 12) + 1;
-  var green2 = Math.floor(Math.random() * 12) + 1;
-  var yellow3 = Math.floor(Math.random() * 12) + 1;
-  var red4 = Math.floor(Math.random() * 12) + 1;
-  console.log(purple1, green2, yellow3, red4);
-
-
-  $(".pics").on("click", function () {
-    console.log($(this).attr("ranNum"));
-  })
 
 //-------Get writers block in that I dont know what to do first or how things go together. 
 //-------I still have a hard time figuring out what functions/methods to use when and where----
